@@ -48,6 +48,7 @@ let string = `
     border-radius: 50%;
     background: radial-gradient(circle, rgba(0, 0, 0, 1) 25%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 100%, rgba(0, 0, 0, 1) 100%);
 }
+/*代码运行结束，谢谢观看！！！*/
 `;
 let string2 = "";
 let n = 0;
@@ -72,7 +73,7 @@ let step = () => {
             n += 1;
             step()
         }
-    }, 0);
+    }, 50);
 };
 
 step();
